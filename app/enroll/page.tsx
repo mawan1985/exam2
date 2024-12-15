@@ -5,7 +5,7 @@ export default function enroll() {
       <p className='font-serif mx-10 my-2 text-blue-300'>Choose from one of our curated lessons</p>
       <table>
       <tr>
-      <td className='font-serif m-4 text-orange-300'>Mini (baby)</td>
+      <td className='font-serif ml-4 text-orange-300'>Mini (baby)</td>
       <td>
       Lessons for the littlest fish</td>
       <td className='font-serif mx-10 text-orange-300'> 4-35 months</td>
