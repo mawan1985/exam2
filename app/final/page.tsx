@@ -4,10 +4,10 @@ export default function page() {
       <h1 className="text-3xl ml-5">Final Exam</h1>  
       <form>
         <label htmlFor="product" className="ml-5">Student Name</label>
-        <input type="text" name="product" id="product" className="m-5 text-black bg-orange-400"/>
+        <input type="text" name="product" id="product" className="m-8 text-black bg-orange-400"/>
         <br />
         <label htmlFor="product" className="ml-5">Student Age</label>
-        <input type="text" name="product" id="product" className="m-5 text-black bg-orange-400"/>
+        <input type="text" name="product" id="product" className="m-10 text-black bg-orange-400"/>
         <br />
         <label htmlFor="product" className="ml-5">Course Description</label>
         <input type="text" name="product" id="product" className="m-5 text-black bg-orange-400"/>
