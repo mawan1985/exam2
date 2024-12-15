@@ -6,7 +6,7 @@ export default function page() {
         <label htmlFor="product" className="ml-5">Student Name</label>
         <input type="text" name="product" id="product" className="m-5 text-black bg-orange-400"/>
         <br />
-        <label htmlFor="product" className="ml-5">Student Age</label>
+        <label htmlFor="product" className="ml-5">Student Age   </label>
         <input type="text" name="product" id="product" className="m-5 text-black bg-orange-400"/>
         <br />
         <label htmlFor="product" className="ml-5">Course Description</label>
