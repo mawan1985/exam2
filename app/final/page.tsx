@@ -4,19 +4,19 @@ export default function page() {
       <h1 className="text-3xl ml-5">Final Exam</h1>  
       <form>
         <label htmlFor="product" className="ml-5">Student Name</label>
-        <input type="text" name="product" id="product" className="m-5 text-black bg-orange-400"/>
+        <div className="ml-5"><input type="text" name="product" id="product" className="m-5 text-black bg-orange-400"/></div>
         <br />
         <label htmlFor="product" className="ml-5">Course Description</label>
         <input type="text" name="product" id="product" className="m-5 text-black bg-orange-400"/>
         <br />
-        <label htmlFor="instructors" className= "mx-5 text-white bg-orange-400" >Choose your Instructor:</label>
+        <label htmlFor="instructors" className= "mx-5 text-white" >Choose your Instructor:</label>
 
-        <select name="instructors" id="instructors">
+        <div className="bg-orange-400"><select name="instructors" id="instructors">
         <option value="carol">Carol Vasquez</option>
         <option value="biane">Biane Pancho</option>
         <option value="mercedes">Mercedes Flores</option>
         <option value="carmen">Carmen Rodriguez</option>
-        </select> 
+        </select> </div>
         <br />
         <div className="ml-5 mt-5">
         <h1 className="text-1xl mx-5">Choose your Schedule</h1> 
@@ -37,10 +37,10 @@ export default function page() {
         <input type="checkbox" id="program3" name="program3" value="Jump" />
         <label htmlFor="program3"> Jump Start Clinics</label>
         <input type="checkbox" id="program4" name="program4" value="Party" />
-        <label htmlFor="program4"> Parties</label></div>
-
+        <label htmlFor="program4"> Parties</label>
+        </div>
         <br />
-        <button className="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-orange-700 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 ml-10" type="submit">Save</button>
+        <button className="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-orange-700 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 ml-10" type="submit">Submit</button>
       </form>
       </>
     );
