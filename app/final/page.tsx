@@ -4,19 +4,18 @@ export default function page() {
       <h1 className="text-3xl ml-5">Final Exam</h1>  
       <form>
         <label htmlFor="product" className="ml-5">Student Name</label>
-        <div className="ml-5"><input type="text" name="product" id="product" className="m-5 text-black bg-orange-400"/></div>
+        <input type="text" name="product" id="product" className="m-5 text-black bg-orange-400"/>
         <br />
         <label htmlFor="product" className="ml-5">Course Description</label>
         <input type="text" name="product" id="product" className="m-5 text-black bg-orange-400"/>
         <br />
         <label htmlFor="instructors" className= "mx-5 text-white" >Choose your Instructor:</label>
-
-        <div className="bg-orange-400"><select name="instructors" id="instructors">
+        <select name="instructors" id="instructors">
         <option value="carol">Carol Vasquez</option>
         <option value="biane">Biane Pancho</option>
         <option value="mercedes">Mercedes Flores</option>
         <option value="carmen">Carmen Rodriguez</option>
-        </select> </div>
+        </select>
         <br />
         <div className="ml-5 mt-5">
         <h1 className="text-1xl mx-5">Choose your Schedule</h1> 
